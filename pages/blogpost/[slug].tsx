@@ -1,11 +1,14 @@
 import React from 'react'
 import { useRouter } from 'next/router'
+import styles from '../../styles/Blogpost.module.css'
 const slug = () => {
 const router = useRouter();
 const {slug}= router.query;
   return (
-    <div>
+    <div className={styles.container}>
+    <main className={styles.main}>
       {slug}
+      </main>
     </div>
   )
 }
