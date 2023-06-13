@@ -7,7 +7,11 @@ const {slug}= router.query;
   return (
     <div className={styles.container}>
     <main className={styles.main}>
-      {slug}
+     <h1> Title of the page {slug}</h1> 
+     <hr/>
+     <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sequi recusandae, blanditiis sint voluptatum ut voluptas porro reprehenderit ad, doloremque esse optio consequuntur maiores tenetur exercitationem quis eaque. Quos, minus.
+     </div>
       </main>
     </div>
   )

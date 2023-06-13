@@ -8,7 +8,7 @@ const blog = () => {
 
 
         <div className="blogItem">
-          <Link href={'/blogpost/learn_javascript'}>
+          <Link href={'/blogpost/learn-javascript'}>
           <h3>How to learn JavaScript in 2022?</h3></Link>
           <p>JavaScript is the language used to design logic for the web</p>
         </div>
